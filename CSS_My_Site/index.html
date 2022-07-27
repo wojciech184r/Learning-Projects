@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wojciech Rajczakowski</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "250px";
+    }
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    }
+  </script>
+</head>
+
+<body>
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void()" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#aboutMe">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#contactMe">Contact</a>
+  </div>
+  <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+  <div class="topContainer">
+    <img class="top-picture" src="images/go-kart.jpeg" alt="kart">
+    <h1 >HI</h1>
+    <h1>I'm Wojciech</h1>
+    <p class="under-name">Web Developer</p>
+  </div>
+  <div class="middleContainer">
+    <div class="profile">
+        <img class="my-picture" src="images/wr.png" alt="wr">
+        <img id="aboutMe" class="mounts"  src="images/mounts.jpg" alt="mounts">
+
+      <h2 >Hello.</h2>
+      <p> Napisac cos o sobie</p>
+    </div>
+    <hr>
+    <div id="skills" class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-image" src="images/skills.png" alt="skills">
+        <h3>My Skills</h3>
+        <p> Napisac swoje umiejetnosci ale tylko kilka </p>
+      </div>
+      <div class="skill-row">
+        <iframe class="giff" src="https://giphy.com/embed/eBtpLQVJeFEBx92VCy"  frameBorder="0" class="giphy-embed" ></iframe>
+        <h3>gdzie</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
+    <hr>
+    <div id="contactMe" class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Zachecic do kontaktu</h3>
+      <p style="margin-bottom:40px;">Napisac cos aby ludzie mogli sie kontaktowac </p>
+      <a class="btn" href="mailto:wrajczakowski@yahoo.co.uk">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottomContainer">
+    <img class="bottom-picture" src="images/red-bull.jpeg" alt="red-bull">
+
+    <div class="footer-link">
+      <a class="link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="link" href="https://twitter.com/">GitHub</a>
+      <a class="link" href="#mySidepanel">Back To Top</a>
+      <p class="footer-sign">© Wojciech Rajczakowski.</p>
+    </div>
+  </div>
+</body>
+</html>

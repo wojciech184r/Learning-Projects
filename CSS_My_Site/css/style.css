@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(34,193,195);
+  background: linear-gradient(262deg, rgba(34,193,195,1)0%, rgba(248,251,250,1) 100%);
+  font-family: 'Merriweather', serif;
+}
+
+.sidepanel {
+  height: 250px;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#d5ffff;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #d5ffff;
+  color: #818181;
+  position: static;
+  border-radius: 25%;
+  border: none;
+  margin: 10px 85% 10px 5px
+
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #ececb4;
+
+
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.under-name {
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+}
+
+.topContainer {
+  position: relative;
+  padding-top: 50px;
+}
+
+.middleContainer {
+  position: relative;
+}
+.mounts{
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+  border-radius: 50%;
+}
+@media (max-width:1028px) {
+  .mounts{
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.my-picture{
+  position: relative;
+  margin: 10Px 10px 10px 45%;
+  height: 10%;
+  width: 10%;
+  display: block;
+}
+
+
+.bottomContainer {
+  position: relative;
+  margin: auto;
+
+}
+
+.top-picture {
+  position: relative;
+  margin: 0 10px 30px;
+  margin-left: 60%;
+  transform: rotate(20deg);
+}
+@media (max-width:980px) {
+  .top-picture{
+    display: block;
+    position: relative;
+    height: 30%;
+    width: 30%;
+    transform: rotate(0);
+
+  }
+}
+
+
+.skill-row{
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+.skill-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.giff{
+  width: 80%;
+}
+.btn {
+  background: #8fecfc;
+  background-image: -webkit-linear-gradient(top, #8fecfc, #25aac2);
+  background-image: -moz-linear-gradient(top, #8fecfc, #25aac2);
+  background-image: -ms-linear-gradient(top, #8fecfc, #25aac2);
+  background-image: -o-linear-gradient(top, #8fecfc, #25aac2);
+  background-image: linear-gradient(to bottom, #8fecfc, #25aac2);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9ad5d9;
+  background-image: -webkit-linear-gradient(top, #9ad5d9, #3ce2e8);
+  background-image: -moz-linear-gradient(top, #9ad5d9, #3ce2e8);
+  background-image: -ms-linear-gradient(top, #9ad5d9, #3ce2e8);
+  background-image: -o-linear-gradient(top, #9ad5d9, #3ce2e8);
+  background-image: linear-gradient(to bottom, #9ad5d9, #3ce2e8);
+  text-decoration: none;
+}
+.bottom-picture {
+  position: static;
+  margin: 40px auto 20px auto;
+  border-radius: 50%;
+}
+@media (max-width:1028px) {
+  .bottom-picture{
+    width: 50%;
+    height: 50%;
+  }
+}
+.footer-link{
+  color: #3ce2e8;
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.link{
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.footer-sign{
+  color: #E5EFC1
+
+}
